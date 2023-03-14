@@ -73,11 +73,11 @@ public class Rol implements Serializable {
 	private Date fechaCreacion;
 
 	@Basic(optional = true)
-	@Column(name = "usuario_modifica",  updatable = true,insertable = false)
+	@Column(name = "usuario_modificacion",  updatable = true,insertable = false)
 	private String usuarioModifica;
 
 	@Basic(optional = true)
-	@Column(name = "fecha_modifica" ,  updatable = true,insertable = false)
+	@Column(name = "fecha_modificacion" ,  updatable = true,insertable = false)
 	@Temporal(TemporalType.TIMESTAMP)
 	@CreatedDate
 	private Date fechaModifica;

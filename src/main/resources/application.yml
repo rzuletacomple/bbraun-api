@@ -1,10 +1,10 @@
 spring:
   application:
-    name: app-redes-api
+    name: app-bbraun-api
   main:
     banner-mode: off
   datasource:
-    url: jdbc:postgresql://localhost:5433/redes
+    url: jdbc:postgresql://localhost:5432/bbraun
     username: bbraun
     password: welcome1
     connection-test-query: Select 1
