@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: app-redes-api
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:postgresql://localhost:5433/redes
+    username: bbraun
+    password: welcome1
+    connection-test-query: Select 1
+    allow-pool-suspension: true
+    maximum-pool-size: 15
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        default_schema: bbraun
+        jdbc:
+          lob:
+            non-contextual-creation: true
+    open-in-view: false
+seguridad:
+   llave: keybbraun
